@@ -4,45 +4,61 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Humble Matt</title>
-  <meta name="description" content="Humble Matt — projects, experiments, and a simple place to support the work." />
-  <link rel="stylesheet" href="./assets/style.css" />
+  <meta name="description" content="Humble Matt — projects, experiments, and a simple way to tip/support." />
 </head>
+
 <body>
-  <div class="container">
-    <div class="card">
-      <h1>Humble Matt</h1>
+  <header>
+    <h1>Humble Matt</h1>
+    <p>
+      I build small things: projects, experiments, and tools. Some are useful. Some are chaotic.
+      If anything I made helped you, here’s the easiest way to support it.
+    </p>
 
+    <p>
+      <a href="./tip/">Support / Tip</a>
+      &nbsp; • &nbsp;
+      <a href="https://buymeacoffee.com/YOURNAME" target="_blank" rel="noopener">Buy Me a Coffee</a>
+    </p>
+
+    <hr />
+  </header>
+
+  <main>
+    <section>
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="./tip/">Tip page</a> (bookmark: <code>humble-matt.github.io/site/tip</code>)</li>
+        <li><a href="https://github.com/humble-matt" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What this site is</h2>
       <p>
-Show your support, with money!
+        A simple, low-maintenance homepage that won’t break when you forget about it for six months.
+        Clean links, fast load, works on phones, and does not depend on any frameworks.
       </p>
+    </section>
 
-      <div class="actions">
-        <a class="btn primary" href="./tip/">
-          Support / Tip
-        </a>
-
-        <a class="btn" href="https://buymeacoffee.com/YOURNAME" target="_blank" rel="noopener">
-          Buy Me a Coffee
-        </a>
-      </div>
-
-      <div class="hr"></div>
-
-      <p class="small">
-        Direct link:
-        <span class="code">humble-matt.github.io/site/tip</span>
+    <section>
+      <h2>Contact</h2>
+      <p>
+        The best way to reach me is usually wherever you found this. Otherwise:
+        <br />
+        <strong>Email:</strong> <a href="mailto:hello@humblematt.com">hello@humblematt.com</a>
       </p>
+    </section>
 
-      <footer>
-        © <span id="year"></span> Humble Matt · Built with GitHub Pages
-      </footer>
-    </div>
-  </div>
+    <hr />
 
-  <script>
-    document.getElementById("year").textContent =
-      new Date().getFullYear();
-  </script>
+    <section>
+      <p>
+        <small>
+          Built with GitHub Pages. Minimal on purpose.
+        </small>
+      </p>
+    </section>
+  </main>
 </body>
 </html>
-
